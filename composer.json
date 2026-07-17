@@ -1,0 +1,45 @@
+{
+    "name": "serpapiorg/serpapi-php",
+    "description": "Official PHP client for SerpApi.Org — real-time Bing search results API (web, images, news, video, shopping, scholar, maps, reviews, autocomplete, webpage).",
+    "keywords": ["serp", "serp-api", "bing", "search-api", "web-scraping", "seo", "serpapi"],
+    "homepage": "https://serpapi.org",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "SerpApi.Org",
+            "email": "domaininfo2110@gmail.com",
+            "homepage": "https://serpapi.org",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SerpApiOrg\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SerpApiOrg\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test:unit": "vendor/bin/phpunit --testsuite=Unit",
+        "test:integration": "vendor/bin/phpunit --testsuite=Integration"
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
