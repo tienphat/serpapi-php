@@ -17,7 +17,7 @@ final class SerpApiConfig
 {
     private const DEFAULT_BASE_URL   = 'https://serpapi.org/api/v1';
     private const DEFAULT_TIMEOUT    = 30;
-    private const DEFAULT_USER_AGENT = 'SerpApiOrg-PHP/1.0 (+https://github.com/serpapiorg/serpapi-php)';
+    private const DEFAULT_USER_AGENT = 'SerpApiOrg-PHP/1.0 (+https://github.com/tienphat/serpapi-php)';
 
     private string  $token;
     private string  $baseUrl;

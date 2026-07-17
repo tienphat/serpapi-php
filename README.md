@@ -5,10 +5,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/serpapiorg/serpapi-php/actions"><img src="https://github.com/serpapiorg/serpapi-php/workflows/Tests/badge.svg" alt="CI"></a>
-  <a href="https://packagist.org/packages/serpapiorg/serpapi-php"><img src="https://img.shields.io/packagist/v/serpapiorg/serpapi-php" alt="Version"></a>
-  <a href="https://packagist.org/packages/serpapiorg/serpapi-php"><img src="https://img.shields.io/packagist/dt/serpapiorg/serpapi-php" alt="Downloads"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/packagist/l/serpapiorg/serpapi-php" alt="MIT"></a>
+  <a href="https://github.com/tienphat/serpapi-php/actions"><img src="https://github.com/tienphat/serpapi-php/workflows/Tests/badge.svg" alt="CI"></a>
+  <a href="https://packagist.org/packages/tienphat/serpapi-php"><img src="https://img.shields.io/packagist/v/tienphat/serpapi-php" alt="Version"></a>
+  <a href="https://packagist.org/packages/tienphat/serpapi-php"><img src="https://img.shields.io/packagist/dt/tienphat/serpapi-php" alt="Downloads"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/packagist/l/tienphat/serpapi-php" alt="MIT"></a>
   <img src="https://img.shields.io/badge/PHP-8.1%2B-777BB4" alt="PHP 8.1+">
 </p>
 
@@ -23,7 +23,7 @@
 
 | | |
 |---|---|
-| 🆓 **2,000 free queries/month** | No credit card required |
+| 🆓 **5,000 free queries/month** | No credit card required |
 | ⚡ **Sub-second responses** | Live data, no stale cache |
 | 🌍 **Country & language targeting** | `gl` + `hl` on every call |
 | 📦 **Zero runtime dependencies** | Pure PHP + cURL |
@@ -42,7 +42,7 @@
 ## Installation
 
 ```bash
-composer require serpapiorg/serpapi-php
+composer require tienphat/serpapi-php
 ```
 
 ---
@@ -384,6 +384,6 @@ MIT — see [LICENSE](LICENSE).
 <p align="center">
   <a href="https://serpapi.org">serpapi.org</a> ·
   <a href="https://serpapi.org/docs">Docs</a> ·
-  <a href="https://github.com/serpapiorg/serpapi-php/issues">Issues</a> ·
+  <a href="https://github.com/tienphat/serpapi-php/issues">Issues</a> ·
   <a href="https://t.me/peterpanpro">Telegram</a>
 </p>

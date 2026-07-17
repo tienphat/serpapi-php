@@ -1,5 +1,5 @@
 {
-    "name": "serpapiorg/serpapi-php",
+    "name": "tienphat/serpapi-php",
     "description": "Official PHP client for SerpApi.Org — real-time Bing search results API (web, images, news, video, shopping, scholar, maps, reviews, autocomplete, webpage).",
     "keywords": ["serp", "serp-api", "bing", "search-api", "web-scraping", "seo", "serpapi"],
     "homepage": "https://serpapi.org",
